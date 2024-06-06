@@ -8,3 +8,12 @@ app
         const carz = app.findObjectByName("carz");
     }
 )
+
+$(".zen-img").ripples({
+    resolution: 256,
+    perturbance: 0.01,
+    });
+
+$(selector).ripples();
+
+$(document).ready();
